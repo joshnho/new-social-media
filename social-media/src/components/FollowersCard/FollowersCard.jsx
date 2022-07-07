@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import { Followers } from '../../data/FollowersData'
+import { Followers } from '../../data/FollowersData';
 
-import './FollowersCard.css'
+import './FollowersCard.css';
 
 const FollowersCard = () => {
   return (
@@ -12,20 +12,18 @@ const FollowersCard = () => {
         return (
           <div className="follower">
             <div>
-              <img src={follower.img} alt="" className='followerImg' />
-              <div className='name'>
+              <img src={follower.img} alt="" className="followerImg" />
+              <div className="name">
                 <span>{follower.name}</span>
                 <span>@{follower.username}</span>
               </div>
             </div>
-            <button className='button fc-button'>
-              Follow
-            </button>
+            <button className="button fc-button">Follow</button>
           </div>
-        )
+        );
       })}
     </div>
-  )
-}
+  );
+};
 
-export default FollowersCard
+export default FollowersCard;

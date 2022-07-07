@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import Cover from '../../img/cover.jpg'
-import Profile from '../../img/profileImg.jpg'
+import Cover from '../../img/cover.jpg';
+import Profile from '../../img/profileImg.jpg';
 
-import './ProfileCard.css'
+import './ProfileCard.css';
 
 const ProfileCard = () => {
   return (
@@ -31,11 +31,9 @@ const ProfileCard = () => {
         </div>
         <hr />
       </div>
-      <span>
-        My Profile
-      </span>
+      <span>My Profile</span>
     </div>
-  )
-}
+  );
+};
 
-export default ProfileCard
+export default ProfileCard;
