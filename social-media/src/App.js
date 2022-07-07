@@ -1,5 +1,5 @@
 import './App.css';
-import { Home } from './pages/home/Home';
+import { Home } from './pages/Home/Home';
 const App = () => {
   return (
     <div className="App">
