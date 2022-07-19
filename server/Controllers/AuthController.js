@@ -48,6 +48,7 @@ export const loginUser = async (req, res) => {
           process.env.JWT_SECRET,
           { expiresIn: '1h' }
         );
+        console.log(user);
         res.status(200).json({ user, token });
       }
     } else {
