@@ -92,3 +92,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.formToggle{
+  width: 10em;
+}
